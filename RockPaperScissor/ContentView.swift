@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FlagImage: View{
+struct EmojiImage: View{
     let name: String
     var body: some View{
         ZStack{
@@ -127,7 +127,7 @@ struct ContentView: View {
                 VStack{
                     Text("Current Move")
                         .font(.title)
-                    FlagImage(name: Move.allCases[currentMove].rawValue)
+                    EmojiImage(name: Move.allCases[currentMove].rawValue)
                         .foregroundColor(.green)
                     Text(Move.allCases[currentMove].name())
                 }
@@ -135,7 +135,7 @@ struct ContentView: View {
                 VStack{
                     Text("Current Choice")
                         .font(.title)
-                    FlagImage(name: currentChoice ? Choice.Win.rawValue : Choice.Lose.rawValue)
+                    EmojiImage(name: currentChoice ? Choice.Win.rawValue : Choice.Lose.rawValue)
                     Text(currentChoice ? Choice.Win.name() : Choice.Lose.name())
                 }
             }
@@ -153,7 +153,7 @@ struct ContentView: View {
                             selectedMove = move
                             judgeAnswer(selectedMove: move)
                         } label: {
-                            FlagImage(name: move.rawValue)
+                            EmojiImage(name: move.rawValue)
                                 .background(selectedMove == move ? (correctAnswer ? Color.green : Color.red) : Color.clear)
                             
                         }.disabled(selectedMove != nil)
