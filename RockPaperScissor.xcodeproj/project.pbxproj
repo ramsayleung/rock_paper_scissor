@@ -45,6 +45,7 @@
 		575DD6852B3D364D00395665 /* RockPaperScissorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		575DD6892B3D364D00395665 /* RockPaperScissorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorUITests.swift; sourceTree = "<group>"; };
 		575DD68B2B3D364D00395665 /* RockPaperScissorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		575DD69E2B3E4C1200395665 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		575DD6612B3D364C00395665 = {
 			isa = PBXGroup;
 			children = (
+				575DD69E2B3E4C1200395665 /* README.md */,
 				575DD66C2B3D364C00395665 /* RockPaperScissor */,
 				575DD67E2B3D364D00395665 /* RockPaperScissorTests */,
 				575DD6882B3D364D00395665 /* RockPaperScissorUITests */,
